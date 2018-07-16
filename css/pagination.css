@@ -1,0 +1,16 @@
+.Pageing {text-align: center;}
+.Pageing .page{ display: inline-block; padding: 2%; box-shadow: 1px 1px 10px rgba(0,0,0,.1); border-radius: 10px;}
+.ui-pagination-container .ui-pagination-page-item{ display: inline-block; margin: 0 5px; width: 36px; height: 36px; border-radius: 50%; font-size: 12px; color: #b0b0b0; text-align: center; line-height: 36px; text-decoration: none; background: #f3f3f3;}
+.ui-pagination-container .ui-pagination-page-item:hover{ color: #fff; background: -webkit-linear-gradient(left, #32c3eb, #109cda); background: linear-gradient(left, #45be6d, #177ecd); text-decoration: none;}
+.ui-pagination-container .ui-pagination-page-item.active{ color: #fff; background: -webkit-linear-gradient(left, #32c3eb, #109cda); background: linear-gradient(left, #45be6d, #177ecd); cursor: default;}
+.ui-pagination-container .ui_page_prev,
+.ui-pagination-container .ui_page_next{
+	font-size: 16px;
+	font-weight: bold;
+	font-family: 'iconfont' !important;
+}
+/*@media(max-width:900px){ .Pageing{ margin-top: 6%;}
+	.ui-pagination-container .ui-pagination-page-item{ font-size: 14px; margin: 0 3px; padding: 8px 12px;}
+	}
+@media(max-width:640px){ .ui-pagination-container .ui-pagination-page-item{ font-size: 12px; margin: 0 2px; padding: 5px 8px;}
+	}*/
